@@ -1,0 +1,396 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+
+}
+
+header {
+	 display:flex;
+	 justify-content:center;
+	 height: 120px;
+
+}
+.container {
+	width: 990px;
+	display: flex;
+	justify-content:space-between;
+
+}
+.logo {
+	display: flex;
+	align-items:center;
+	padding-top: 10px
+}
+.menu {
+	display: flex;
+	align-items:center;
+	padding-top: 15px
+	
+}
+nav ul,
+nav li {
+	list-style: none;
+	margin:0;
+	padding: 0; 
+}
+nav ul {
+	display:flex;
+}
+nav a {
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #0f181d;
+	font-family: Arial;
+}
+nav .active a,
+nav a:hover {
+	background-color: #4272b1;
+	color: #FFFFFF;
+}
+
+
+
+.column {
+	flex-direction: column;
+}
+.intelbras{
+text-align: center;
+padding-bottom: 50px;
+}
+#banner {
+	display:flex;
+	justify-content:center;
+	background-image:url('../images/seg45.jpg');
+	background-position:center;
+	background-size:cover;
+	height:670px;
+}
+#bannerredes {
+	display:flex;
+	justify-content:center;
+	background-image:url('../images/redes2.jpg');
+	background-position:center;
+	background-size:cover;
+	height:420px;
+}
+#bannerhotspot {
+	display:flex;
+	justify-content:center;
+	background-image:url('../images/wififace.png');
+	background-position:center;
+	background-size:cover;
+	height:420px;
+}
+#banner2 {
+	display:flex;
+	justify-content:center;
+	background-image:url('../images/seg3.jpg');
+	background-position:center;
+	background-size:cover;
+	height:420px;
+}
+#bannerloja {
+	display:flex;
+	justify-content:center;
+	background-image:url('../images/i7.jpg');
+	background-position:center;
+	background-size:cover;
+	height:420px;
+}
+#bannernoticia {
+	display:flex;
+	justify-content:center;
+	background-image:url('../images/noticia.jpg');
+	background-position:center;
+	background-size:cover;
+	height:380px;
+}
+#bannerservico {
+	display:flex;
+	justify-content:center;
+	background-image:url('../images/servico.jpg');
+	background-position:center;
+	background-size:cover;
+	height:420px;
+}
+.banner_headline {
+	flex:1;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+}
+.banner_headline h1 {
+	color: #000000;
+	font-size: 60px;
+	text-shadow:0px 1px 0px #FFFFFF;
+	margin: 0;
+	padding: 0;
+	max-width: 350px;
+}
+.banner_headline h2 {
+	color: #000000;
+	font-size: 25px;
+	text-shadow:0px 1px 0px #FFFFFF;
+	margin: 0;
+	padding: 0;
+	max-width: 350px;
+	margin-top: 30px;
+}
+.banner_options {
+	height: 210px;
+	display: flex;
+	justify-content:center;
+}
+.banner_options2 {
+	height: 210px;
+	display: flex;
+	margin-top: 290px;
+	text-decoration: none;
+
+}
+.news_resume a {
+   color: black;
+}
+.banner1,
+.banner2,
+.banner3 {
+	flex:1;
+	padding: 20px;
+}
+.banner1 a {
+
+	padding-bottom: 15px;
+	color: #FFFFFF;
+}
+.banner1 {
+	background-color: #4272b1;
+	color: #000000;
+}
+.banner2 {
+	background-color: #12141a;
+	color: #FFFFFF;
+}
+.banner3 {
+	background-color: #4272b1;
+	color: #000000;
+}
+.banner_title {
+ font-size: 22px;
+}
+.banner_desc {
+	font-size: 16px;
+	margin-bottom:15px;
+	margin-top: 15px;
+  
+}
+.banner_options a {
+	display: inline-block;
+	border: 1px solid #FFFFFF;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+#geral{
+		display: flex;
+		justify-content: center;
+}
+#geral section {
+	flex:2;
+}
+#geral aside {
+	flex:1;
+}
+.widget_body a {
+	padding-left: 7px;
+}
+.widget_title {
+	margin-bottom: 20px;
+	margin-top:30px;
+	padding-left: 5px;
+	
+}
+.widget_title_text {
+	color: #000000;
+	font-size: 21px;
+	font-weight: bold;
+
+}
+.widget_title_bar {
+	width: 40px;
+	height: 2px;
+	background-color: #4272b1;
+	margin-top: 10px;
+}
+.flex {
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+
+article {
+	flex:1;
+    min-width:300px;
+    margin-right: 20px;
+}
+article a {
+	text-decoration:none;
+}
+article .news_data {
+	display: flex;
+
+}
+article .news_posted_at {
+	background-color: #4272b1;
+	color: #FFFFFF;
+	font-size: 12px;
+	padding: 7px;
+	margin-right: 2px;
+}
+article .news_comments {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 12px;
+	padding: 7px;
+}
+article .news_thumbnail img {
+	width: 100%;
+	height: auto;
+	margin-top: 15px;
+}
+article .news_title {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: #000000;
+	font-size: 23px;
+}
+article .news_resume {
+	font-size: 15px;
+	color: #000000;
+	line-height: 22px;
+	margin-bottom: 20px;
+}
+#link{
+	margin-bottom: 5px;
+}
+.fabricante {
+	font-size: 15px;
+	color: #000000;
+	line-height: 22px;
+	margin-bottom: 30px;
+	padding-top: 0px;
+}
+footer {
+	background-color: #12141a;
+	display: flex;
+	justify-content:center;
+
+}
+.footer_menu {
+	display: flex;
+
+}
+.fm_1, .fm_2, .fm_3 {
+	flex:1;
+}
+.fm_1 {
+	background-color: #4272b1;
+	color: #000000;
+	padding: 20px;
+}
+.fm_2 {
+	background-color: #12141a;
+	color: #FFFFFF;
+	padding: 20px;
+}
+.fm_3 {
+	background-color: #4272b1;
+	color: #000000;
+	padding: 20px;
+}
+
+.footer_menu a {
+	display: inline-block;
+	border: 1px solid #FFFFFF;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.footer_area {
+	display: flex;
+	
+}
+.area_item {
+	flex:1;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+
+}
+.flexColumn {
+	flex-direction:column;
+
+}
+footer .widget_title_text {
+	color: #FFFFFF;
+
+}
+.footer_copy {
+	border-top: 1px solid;
+	height: 40px;
+	line-height: 40px;
+	color: #497b9e;
+	font-size: 13px;
+	padding-left: 10px;
+}
+.contato {
+	font-size: 22px;
+	margin-left: 50px;
+	
+}
+
+@media (max-width: 980px){
+	.container {
+	width: 100%;
+	
+} 
+@media (max-width: 980px){
+	.container {
+	width: auto;
+	flex-direction:column;
+	height: auto;
+   }
+   .banner_options {
+   	display: none;
+   }
+   .logo {
+   	padding-left: 120px;
+   	margin-top: 12px;
+   }
+   #geral section {
+   	padding: 20px
+   }
+   #geral aside {
+   	padding: 30px;
+   }
+   .footer_menu    {
+   	flex-direction:column;
+   }
+   .footer_area {
+     flex-direction:column;
+     padding: 50px;
+   }
+   header {
+   	margin-left: 0px;
+   	margin-top: 6px;
+   }
+  
+
+ 
+
+} 
