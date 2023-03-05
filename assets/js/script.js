@@ -1,3 +1,20 @@
+
+////////Função dentro de objeto
+/*
+let personagem = {
+    nome: 'Rodrigo',
+    idade: 42,
+    nomeCompleto: function () {
+        return `${this.nome} ${this.idade}`
+    }
+}
+console.log(personagem.nomeCompleto());
+
+
+/*/////////
+/*
+Acessar e alterar OBJETO
+
 let personagem = {
     nome: 'Rodrigo',
     idade: 42,
@@ -14,7 +31,7 @@ let personagem = {
 personagem.idade += 10; 
 
 console.log(`${personagem.idade}`);
-
+ 
 
 /////////// OBJETO E ARRAY 
 /*
