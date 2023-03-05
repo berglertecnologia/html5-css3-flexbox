@@ -1,9 +1,33 @@
-let ingredientes = [
+
+/////////// OBJETO E ARRAY 
+/*
+let personagem = {
+    nome: 'Rodrigo',
+    idade: '42',
+    pais: 'Brasil',
+    olhos: ['preto', 'branco'],
+    Poderes: {
+        força: 10,
+        defesa: 15,
+        ataque: 12
+    }
+
+}
+
+console.log(`${personagem.Poderes.ataque}`);
+console.log(personagem.olhos[0]);
+
+
+/* let ingredientes = [
     'agua',
     'farinha',
     'ovo',
     'Maracuja'
 ];
+
+// ingredientes.pop remove o ultimo
+// ingredientes.shift remove o primeiro
+
 
 ingredientes.push('cebola');
 
