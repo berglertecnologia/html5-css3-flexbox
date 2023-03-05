@@ -1,3 +1,20 @@
+let personagem = {
+    nome: 'Rodrigo',
+    idade: 42,
+    pais: 'Brasil',
+    olhos: ['preto', 'branco'],
+    Poderes: {
+        força: 10,
+        defesa: 15,
+        ataque: 12
+    }
+
+}
+
+personagem.idade += 10; 
+
+console.log(`${personagem.idade}`);
+
 
 /////////// OBJETO E ARRAY 
 /*
