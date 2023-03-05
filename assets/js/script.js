@@ -1,8 +1,19 @@
+let ingredientes = [
+    'agua',
+    'farinha',
+    'ovo',
+    'Maracuja'
+];
+
+ingredientes.push('cebola');
+
+console.log(`Total ingredientes: ${ingredientes.length}`);
+
+
+
 /* 1. No array abaixo, qual o número que pega a Ferrari? 
-*/
 
-
-let carros = ['BMW', 'Ferrari', 'Mercedes'];
+/*let carros = ['BMW', 'Ferrari', 'Mercedes'];
 let x = 1
 console.log('1. ' + carros [x]);
 
@@ -10,10 +21,10 @@ console.log('1. ' + carros [x]);
 console.log('2. Lista com Audi:'); console.log(carros);
 
 //Adicione o Volvo a lista
-
+asdasd
 
 console.log('3. Lista com Volvo:'); console.log(carros);
-
+/*
 
 //Exiba quantos itens tem no array console.log('4. itens no array:');
 
