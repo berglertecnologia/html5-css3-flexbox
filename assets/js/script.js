@@ -1,18 +1,19 @@
-let cores = ['preto', 'branco', 'azul'];
+////////// dando loop em arrays
+/* let cores = ['preto', 'branco', 'azul'];
 
 cores.push('verde');
 
-/* for (let n = 0; n < cores.length; n++) {
+ for (let n = 0; n < cores.length; n++) {
     console.log(cores[n]);
 } 
 
 for (let i in cores) {
     console.log(cores[i])
-}*/
+}
 
 for (let cor of cores) {
     console.log(cor);
-}
+}*/
 
 
 /////// Loop com comando for
