@@ -1,3 +1,46 @@
+
+
+///// exercicio 2 - contar de 1 a 100 com while 
+
+let n = 1;
+
+while (n <= 100) {
+  console.log(n);
+  n++;
+}
+
+
+
+///// exercicio 1 loop mostrar todas as frutas
+
+
+
+/* let frutas = ['maça', 'uva', 'banana'];
+for (let x in frutas) {
+    console.log(frutas[x]);
+}
+
+
+
+/*const frutas = ["maçã", "banana", "laranja", "abacaxi", "uva"];
+
+for (let i = 0; i < frutas.length; i++) {
+  console.log(frutas[i]);
+}
+
+
+
+
+//// Loop com comando while 
+
+/* let numero = 0;
+
+while (numero < 10) {
+    console.log(`Numero: ${numero}`);
+    numero++;
+
+}
+
 ////////// dando loop em arrays
 /* let cores = ['preto', 'branco', 'azul'];
 
