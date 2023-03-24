@@ -1,7 +1,16 @@
 
+function clicou() {
+const input = document.querySelector('input');
+console.log(input)
+
+}
+
+
+
+
 
 ///// exercicio 2 - contar de 1 a 100 com while 
-
+/*
 let n = 1;
 
 while (n <= 100) {
