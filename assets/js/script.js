@@ -1,10 +1,6 @@
- 
- 
- function clicou() {
-    const button = document.querySelector('button');
-
-    console.log(button)
+function soltou(e) { console.log(e.code);
 }
+const input = document.querySelector('input'); input.addEventListener('keyup', soltou);
 
 
 
