@@ -1,3 +1,27 @@
+
+//EXERCICIO 2 DE ADICIONAR O QUE É DIGITADO
+// NO INPUT E LEVAR PARA FRONT DO SITE
+// Elementos
+const input = document.querySelector('input');
+const lista = document.querySelector('ul');
+// Funções
+function handleKeyUp(e) {
+if (e.key === 'Enter') {
+const newli = document.createElement('li'); 
+newli.innerHTML = input.value;
+
+lista.appendChild(newli);
+}
+
+}
+// Eventos
+input.addEventListener('keyup', handleKeyUp);
+
+
+
+
+
+/*
 const ul = document.querySelector('ul');
 const input = document.querySelector('input');
 
