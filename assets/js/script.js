@@ -1,11 +1,26 @@
-function soltou(e) {
-console.log('TECLA APERTADA:
-+ e.code);
-console.log('SHIFT? + e.shiftkey);
-console.log('CTRL? + e.ctrlKey);
-console.log('ALT? ' + e.altKey); console.log('--');
+const ul = document.querySelector('ul');
+const input = document.querySelector('input');
+
+input.addEventListener('keyup', function(event) {
+  if (event.keyCode === 13) {
+    const li = document.createElement('li');
+    li.textContent = input.value;
+    ul.appendChild(li);
+    input.value = '';
+  }
+});
+
+
+
+
+ 
+ 
+
+/* function clicou() {
+    const button = document.querySelector('button');
+
+    console.log(button)
 }
-const input = document.querySelector('input'); input.addEventListener('keyup', soltou);
 
 
 

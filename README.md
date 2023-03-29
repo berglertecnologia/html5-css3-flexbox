@@ -3,5 +3,5 @@
 Primeiro site com responsividade criado
 
 
-esse é meu primeiro projeto em HTML CSS e Javascript
+Esse é meu primeiro projeto em HTML CSS e Javascript
 
