@@ -1,19 +1,31 @@
 class Person {
-age = 0;
+age = 0; 
+steps = 0;
+
 constructor (name) {
 this.name = name;
 }
+
+takeAStep() {
+this.steps++;
 }
 
+setAge(newAge) {
+if (typeof newAge == 'number') {
+this.age = newAge;
+    }
+  }
+}
+
+
+
 let p1 = new Person("João");
-let p2 = new Person("Maria");
-let p3 = new Person("Pedro");
+ let p2 = new Person("Maria");
+  let p3 = new Person("Pedro");
 
-p1.age = 20;
+p1.setAge(20);
 
-console.log(`P1 = ${p1.name} tem ${p1.age} anos`);
-console.log(`P2 = ${p2.name} tem ${p2.age} anos`);
-console.log(`P3 = ${p3.name} tem ${p3.age} anos`);
+ console.log(`${p1.name} tem ${p1.age} anos.`)
 
 
 
