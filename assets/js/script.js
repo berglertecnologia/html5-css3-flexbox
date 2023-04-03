@@ -1,3 +1,16 @@
+class Person {
+constructor (name, age) {
+this.name = name;
+this.age = age;
+}
+}
+let p1 = new Person("João", 20); 
+let p2 = new Person("Maria", 30); 
+let p3 = new Person("Pedro", 40);
+console.log(p1.age);
+
+
+
 
 //EXERCICIO 2 DE ADICIONAR O QUE É DIGITADO
 // NO INPUT E LEVAR PARA FRONT DO SITE
