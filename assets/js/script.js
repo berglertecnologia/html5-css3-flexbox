@@ -1,13 +1,19 @@
 class Person {
-constructor (name, age) {
+age = 0;
+constructor (name) {
 this.name = name;
-this.age = age;
 }
 }
-let p1 = new Person("João", 20); 
-let p2 = new Person("Maria", 30); 
-let p3 = new Person("Pedro", 40);
-console.log(p1.age);
+
+let p1 = new Person("João");
+let p2 = new Person("Maria");
+let p3 = new Person("Pedro");
+
+p1.age = 20;
+
+console.log(`P1 = ${p1.name} tem ${p1.age} anos`);
+console.log(`P2 = ${p2.name} tem ${p2.age} anos`);
+console.log(`P3 = ${p3.name} tem ${p3.age} anos`);
 
 
 
